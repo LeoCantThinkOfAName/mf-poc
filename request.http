@@ -1,0 +1,202 @@
+GET http://localhost:3000/api/webhook
+
+### GET NEARBY STORES
+POST http://localhost:3000/api/store
+Content-Type: application/json
+
+{
+  "type": "Point",
+  "coordinates": [121.5544251, 25.0223821]
+}
+
+### CREATE STORE
+POST http://localhost:3000/api/store/create
+Content-Type: application/json
+
+{
+  "name": "樂坡幫 QQ",
+  "tel": "0912345678",
+  "email": "bonbox@mail.com",
+  "address": "106台北市大安區和平東路三段212巷2號",
+  "location": {
+    "type": "Point",
+    "coordinates": [121.5544251, 25.0223821]
+  },
+  "img": "https://thumbor.blink.com.tw/qZ-yaP5hQVnD2Vr5ps17_JCmSRo=/http://blinkimage.s3.amazonaws.com/images/discount_images/2/29/299576_ai5i5eyaemfhlktv4urjbvl7p.jpg"
+}
+
+### CREATE STORE
+POST http://localhost:3000/api/store/create
+Content-Type: application/json
+
+{
+  "name": "佐藤咖哩",
+  "tel": "0912345678",
+  "email": "bonbox@mail.com",
+  "address": "106台北市大安區和平東路三段228巷9號",
+  "location": {
+    "type": "Point",
+    "coordinates": [121.55453960671692, 25.022091727455393]
+  },
+  "img": "https://lh5.googleusercontent.com/p/AF1QipMdQ4oTe93u6zkLqw6tXD2CcKBjicBqGar-SO-D=w408-h306-k-no"
+}
+
+### CREATE STORE
+POST http://localhost:3000/api/store/create
+Content-Type: application/json
+
+{
+  "name": "起家雞韓式炸雞 六張犁店",
+  "tel": "0912345678",
+  "email": "bonbox@mail.com",
+  "address": "No. 187號, 基隆路二段信義區台北市110",
+  "location": {
+    "type": "Point",
+    "coordinates": [121.55365118967799, 25.025003113455405]
+  },
+  "img": "https://lh5.googleusercontent.com/p/AF1QipOq0EqqrSdvj-BdvE1XHm3BhTI8GlCPO87UUTnX=w408-h306-k-no"
+}
+
+### CREATE STORE
+POST http://localhost:3000/api/store/create
+Content-Type: application/json
+
+{
+  "name": "亨利客 原味炭烤牛排",
+  "tel": "0912345678",
+  "email": "bonbox@mail.com",
+  "address": "11056台北市信義區和平東路三段215號",
+  "location": {
+    "type": "Point",
+    "coordinates": [121.55399786920175, 25.023520205476984]
+  },
+  "img": "https://lh5.googleusercontent.com/p/AF1QipMP_OsSCt4w9MniwrCO1LxYjd6Vi8SOgBgBFtAk=w426-h240-k-no"
+}
+
+### CREATE STORE
+POST http://localhost:3000/api/store/create
+Content-Type: application/json
+
+{
+  "name": "壽司爸",
+  "tel": "0912345678",
+  "email": "bonbox@mail.com",
+  "address": "106台北市大安區和平東路三段212巷14號",
+  "location": {
+    "type": "Point",
+    "coordinates": [121.55377354719398, 25.02224054773233]
+  },
+  "img": "https://lh5.googleusercontent.com/p/AF1QipORRugaVMt1yXwBmR2LKOJyCQPKNpxe4FwWXPVN=w437-h240-k-no"
+}
+
+### CREATE STORE
+POST http://localhost:3000/api/store/create
+Content-Type: application/json
+
+{
+  "name": "鼎泰豐 信義店",
+  "tel": "0912345678",
+  "email": "bonbox@mail.com",
+  "address": "106台北市大安區信義路二段194號",
+  "location": {
+    "type": "Point",
+    "coordinates": [121.53024708205967, 25.033530506204904]
+  },
+  "img": "https://lh5.googleusercontent.com/p/AF1QipPPwwHR65jiJwaYkkjEKn0L4J13CyR62DxCUoTv=w408-h272-k-no"
+}
+
+### CREATE STORE
+POST http://localhost:3000/api/store/create
+Content-Type: application/json
+
+{
+  "name": "STARBUCKS 星巴克 (永康街2F門市)",
+  "tel": "0912345678",
+  "email": "bonbox@mail.com",
+  "address": "106台北市大安區永康街2號2樓",
+  "location": {
+    "type": "Point",
+    "coordinates": [121.53001161065994, 25.03337049262061]
+  },
+  "img": "https://lh5.googleusercontent.com/p/AF1QipO1-n5Ee2Smc8kc7v6MionFRNU7xYJv2CMC-iXf=w426-h240-k-no"
+}
+
+### CREATE STORE
+POST http://localhost:3000/api/store/create
+Content-Type: application/json
+
+{
+  "name": "BAR AFTER NINE 九後餐酒館",
+  "tel": "0912345678",
+  "email": "bonbox@mail.com",
+  "address": "106台北市大安區信義路二段152號",
+  "location": {
+    "type": "Point",
+    "coordinates": [121.52889182120481, 25.03369667869961]
+  },
+  "img": "https://lh5.googleusercontent.com/p/AF1QipMAx_oIPbdPNWJr-4ytFDkZ6sULLdlm878CksTe=w426-h240-k-no"
+}
+
+### CREATE STORE
+POST http://localhost:3000/api/store/create
+Content-Type: application/json
+
+{
+  "name": "MOK ROOM",
+  "tel": "0912345678",
+  "email": "bonbox@mail.com",
+  "address": "106台北市大安區光復南路308巷34號1樓",
+  "location": {
+    "type": "Point",
+    "coordinates": [121.55619520313253, 25.039074433702417]
+  },
+  "img": "https://lh5.googleusercontent.com/p/AF1QipP1iCF4rt8ZhcZMh0rLJIr08Ak0IQjp8JtPS5lO=w408-h306-k-no"
+}
+
+### CREATE STORE
+POST http://localhost:3000/api/store/create
+Content-Type: application/json
+
+{
+  "name": "客美多咖啡 Komeda's Coffee - 忠孝光復店",
+  "tel": "0912345678",
+  "email": "bonbox@mail.com",
+  "address": "106台北市大安區光復南路268號1樓",
+  "location": {
+    "type": "Point",
+    "coordinates": [121.55803889309185, 25.039860122264823]
+  },
+  "img": "https://lh5.googleusercontent.com/p/AF1QipMPMtThwZOoYRpgtAdBIcj9tD6FWbR0iadLrfPc=w408-h306-k-no"
+}
+
+### CREATE STORE
+POST http://localhost:3000/api/store/create
+Content-Type: application/json
+
+{
+  "name": "30 Thirty 老酒館",
+  "tel": "0912345678",
+  "email": "bonbox@mail.com",
+  "address": "110台北市信義區逸仙路26巷17號",
+  "location": {
+    "type": "Point",
+    "coordinates": [121.56292781442073, 25.039845217438156]
+  },
+  "img": "https://lh5.googleusercontent.com/p/AF1QipPLWi_xuXlkPzuPG5zPwDV3ed9qt7t2dBomlC5I=w408-h306-k-no"
+}
+
+### CREATE STORE
+POST http://localhost:3000/api/store/create
+Content-Type: application/json
+
+{
+  "name": "金魚日本料理",
+  "tel": "0912345678",
+  "email": "bonbox@mail.com",
+  "address": "106台北市大安區延吉街233巷18號",
+  "location": {
+    "type": "Point",
+    "coordinates": [121.55689820877761, 25.037045689580506]
+  },
+  "img": "https://lh5.googleusercontent.com/p/AF1QipPwUWj9DkurDXUMNPC3DlZIbH5HO1Lwmv_4xJ0T=w408-h272-k-no"
+}
